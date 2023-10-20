@@ -20,3 +20,6 @@ git status
 
 Просмотр цепочки изменений
 git log
+
+Все настройки, применённые к проекту (из /etc/gitconfig, ~/.gitconfig и .git/config)
+git config --list --show-origin
