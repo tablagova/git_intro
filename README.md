@@ -21,6 +21,9 @@ git status
 Просмотр цепочки изменений
 git log
 
+Посмотреть схему проекта:
+git log --graph
+
 Все настройки, применённые к проекту (из /etc/gitconfig, ~/.gitconfig и .git/config)
 git config --list --show-origin
 
@@ -52,5 +55,6 @@ git diff
 Разница между двумя коммитами:
 git diff <хеш1> <хеш2>
 
+- [Ветвление](./branch_help.md)
 
-
+- [Слияние веток](./merge_help.md)
