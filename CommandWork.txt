@@ -1,0 +1,9 @@
+# Указываем Git-сервер для репозитория 
+git remote add origin git@github.com:USERNAME/git_intro.git
+
+# Отправляем изменения в ветку master
+git push -u origin master 
+
+- [Ветвление](./branch_help.md)
+
+- [Слияние веток](./merge_help.md)
